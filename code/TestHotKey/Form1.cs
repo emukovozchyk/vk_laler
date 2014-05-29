@@ -21,7 +21,7 @@ namespace TestHotKey
             const int id = 0;
             //set your global hot key
             //RegisterHotKey(Handle, id, (int)KeyModifier.Shift, Keys.A.GetHashCode()); if you want single key modifier
-            RegisterHotKey(Handle, id, (int)KeyModifier.Shift | (int)KeyModifier.Control, Keys.A.GetHashCode());
+            RegisterHotKey(Handle, id, (int)KeyModifier.Shift | (int)KeyModifier.Control, Keys.D.GetHashCode());
         }
         
         protected override void WndProc(ref Message m)
